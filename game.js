@@ -19,6 +19,8 @@ function gameSetUp() {
   document.getElementById('guessedWord').innerHTML = displayWord.join(' ');
 }
 
+gameSetUp();
+
 // 1. Pick a random word.
 // 2. Take the player’s guess.
 // 3. Quit the game if the player wants to.
